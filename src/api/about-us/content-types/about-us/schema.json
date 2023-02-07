@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_uses",
+  "info": {
+    "singularName": "about-us",
+    "pluralName": "about-uses",
+    "displayName": "About Us",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "dyanamo": {
+      "type": "dynamiczone",
+      "components": [
+        "page.hero",
+        "page.our-team",
+        "page.testimonial"
+      ]
+    }
+  }
+}
